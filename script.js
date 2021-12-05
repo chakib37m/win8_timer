@@ -36,4 +36,24 @@ function styling(){
     }
 }
 
+
+h = document.querySelector("#h");
+m = document.querySelector("#m");
+s = document.querySelector("#s");
+hs = document.querySelector("#hours");
+ms = document.querySelector("#minutes");
+ss = document.querySelector("#seconds");
+
+hs.addEventListener('click', function(){h.innerHTML = '0' + hs.value;});
+ms.addEventListener('click', function(){m.innerHTML = '0' + ms.value;});
+ss.addEventListener('click', function(){s.innerHTML = '0' + ss.value;});
+/******************************************************
+ * need to change the 0
+ * and make it two integers
+ * ***************************************************
+ */
+
+
+
+
 });
