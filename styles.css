@@ -1,0 +1,64 @@
+html, body{
+    height: 98%;
+}
+body{
+    background-color:#044a63;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat;
+    text-shadow: 0 0 1px white;
+    font-size: larger;
+    flex-direction: column;
+
+}
+header{
+    top : 0%;
+    position: absolute;
+    left : 0%;
+    text-align: left;
+    margin : 1%;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+#back{
+    height : 1em;
+    width: 1em;
+    margin-right: 10px;
+}
+.abs {
+    position: absolute;
+    top:5%;
+    font-size: medium;
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: xxx-large;
+    font-weight: 1000;
+}
+#timer{
+    width: 500px;
+    background-color: #5ddd6c;
+    padding : 10%;
+    text-align: center;
+    margin: 2% 0;
+}
+#stopwatch{
+    margin: 2% 0;
+    width: 500px;
+    background-color: #e6475d;
+    padding: 10%;
+    text-align: center;
+}
+.timer{
+    font-size: 10em;
+}
