@@ -24,7 +24,7 @@ header{
     align-items: center;
     font-size: xx-large;
 }
-#back{
+.back{
     height : 1em;
     width: 1em;
     margin-right: 10px;
